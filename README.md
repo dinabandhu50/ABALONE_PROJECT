@@ -2,7 +2,7 @@
 This Repository Abalone classification project. This is the first project in my self learning curriculum.
 
 ## Dataset
-The dataset I have used can be found here ([https://archive.ics.uci.edu/ml/datasets/Abalone](https://archive.ics.uci.edu/ml/datasets/Abalone))
+The dataset I have used can be found here ([https://www.kaggle.com/rodolfomendes/abalone-dataset](https://www.kaggle.com/rodolfomendes/abalone-dataset))
 
 ## Purpose of project
 In the journey of learning machine learning especially classification EDA and classification model evaluation, I have made a self learning curriculum which is comprised of building 10 classification projects end-to-end involving steps, which are as follows:  
