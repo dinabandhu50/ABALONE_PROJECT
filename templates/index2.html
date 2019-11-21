@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abalone Sex Classification</title>
+</head>
+
+<body>
+    <h1>Abalone Sex Classification</h1>
+    <h2>Input</h2>
+    <form method='POST' action="/">
+        <div>
+            <!-- <input type="textarea" rows="10" cols="70" name="text_data"> -->
+            <textarea name="text_data" rows="10" cols="70"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+
+    <p>
+        <h2>You have entered</h2>
+        <br>
+        {{data}}
+    </p>
+
+    <br>
+    <h2>Prediction Sex Of Abalone is:</h2>
+    {%if sex_pred in ['M','F','I']%}
+    <h3>{{sex_pred}}</h3>
+    {%else%}
+    <h3>Submit Input</h3>
+    {%endif%}
+</body>
+
+</html>
